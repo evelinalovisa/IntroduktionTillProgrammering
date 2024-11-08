@@ -22,6 +22,8 @@ public class StopMain {
 
         System.out.println("Antal tecken (exklusive raden med 'stop'): " + stop.getAntalTecken());
         System.out.println("Antal rader (exklusive raden med 'stop'): " + stop.getAntalRader());
+        System.out.println("Antal ord (exklusive raden med  'stop'): " + stop.getAntalOrd());
+        System.out.println("Det längsta ordet är: " + stop.getLangstaOrdet());
     }
 
 }
